@@ -18,7 +18,7 @@ function tampilJam() {
     s = (s < 10) ? "0" + s : s;
 
     let time = h + ":" + m + ":" + s;
-    document.getElementById("jamDigital").textContent = time;
+    document.getElementById("time").textContent = time;
 
     setTimeout(tampilJam, 1000);
 }
