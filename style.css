@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #371B58;
+}
+
+.jam {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #17D4FE;
+    width: 350px;
+    height: 100px;
+    background-color: #fafafa;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #5B4B8A;
+}
